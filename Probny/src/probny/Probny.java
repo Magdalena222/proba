@@ -11,11 +11,12 @@ package probny;
  */
 public class Probny {
 
-    /**
-     * @param args the command line arguments
-     */
+   static int Policz(int a, int b){
+        return a+b;
+    }
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("W drugim branchu; 2+3="+Policz(2,3));
     }
     
 }
